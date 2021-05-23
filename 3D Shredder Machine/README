@@ -4,3 +4,39 @@
       1st checkpoint: Added the first conceptual version on github and named some components.
       2nd checkpoint: Designed the base and the lower part of the container.
       3rd checkpoint: Finished the upper container and the recipient.
+      4th checkpoint: Finished the joints, motion studies and the appeareance. (FINAL VERSION)
+      
+  
+  Components and Joints:
+      Components:
+            - Base : supports the entire mechanism.
+            - Lower container : lower part of the container where the shredder gears will go.
+            - Upper container : upper part of the container where the shredder gears will go.
+            - 2 x Shredders : shredder gears that rotate and destroy the items inserted in the mechanism.
+            - Recipient : the recipient where the items that will be shredded are inserted.
+            - Crank : the part that produces the shredding action.
+            - Trash container : a small container that collects the shredded trash.
+       
+       Joints:
+            - 2 x revolute for the 2 shredder gears.
+            - revolute for the crank 
+            - motion link that connects the 2 revolute gears together.
+            - motion link that connects the crank revolute to the gear revolute.
+            - slider for the removal of the trash container.
+            
+   
+   Motion studies:
+        - Rotating the crank and the shredders to show the mechanism in action.
+        - Trash container removal to see how the container is removed.
+        
+   
+   File types in this repository:
+        .f3d, .png, .mp4
+        
+        
+   Software used : Autodesk Fusion 360.
+   
+   Sources and author:
+          [YouTube](https://www.youtube.com/watch?v=ltVqj0MW_hQ&ab_channel=Eureka)
+          [Prusa Printers](https://www.prusaprinters.org/prints/41106-rozdrabniarka)
+          
